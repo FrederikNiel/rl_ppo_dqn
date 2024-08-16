@@ -1,0 +1,18 @@
+Python-Version: 3.8.18
+stable-baseline:
+ - pip install stable-baselines3
+tensorboard:
+ - pip install tensorboard
+#if you need pygame then
+gymnasium-control:
+ - pip install gymnasium[classic-control]
+
+ # Online Tensorboard
+wandb:
+  - pip install wandb
+
+ # PandaReach-v3 
+ # https://panda-gym.readthedocs.io/
+
+panda-gym:
+  - pip install panda-gym

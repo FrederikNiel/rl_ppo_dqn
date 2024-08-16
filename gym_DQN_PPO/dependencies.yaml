@@ -1,0 +1,8 @@
+Python-Version: 3.12.2
+stable-baseline:
+ - pip install stable-baselines3
+tensorboard:
+ - pip install tensorboard
+#if you need pygame then
+gymnasium-control:
+ - pip install gymnasium[classic-control]

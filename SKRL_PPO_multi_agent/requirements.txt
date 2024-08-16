@@ -1,0 +1,13 @@
+python-version >= 3.8.18
+
+stable-baselines3
+tensorboard
+
+# Optional dependency
+gymnasium[classic-control]
+
+wandb
+
+panda-gym
+
+pip install skrl["torch"]
